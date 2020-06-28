@@ -8,7 +8,6 @@ public class SpringIn5StepsApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(SpringIn5StepsApplication.class, args);
-		
+		System.out.println("First");
 	}
-
 }
