@@ -1,5 +1,6 @@
 package com.in28minutes.spring.basics.entity;
 
+import com.in28minutes.spring.basics.models.Laptop;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
@@ -10,6 +11,8 @@ import javax.swing.*;
 public class Student {
    /* private String name;
     private long rollNo;*/
+    @Autowired
+    private Laptop laptop;
     @Autowired//wiring by name
     private IMessDetails keralaMess;
 
